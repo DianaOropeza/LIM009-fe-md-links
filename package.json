@@ -1,30 +1,37 @@
 {
     "name": "md-links",
     "version": "1.0.0",
-    "description": "md links @ Laboratoria",
-    "main": "src/index.html",
-    "keywords": [
-      "links",
-      "markdown",
-      "jest"
-    ],
-    "license": "MIT",
+    "description": "Markdown md-links",
+    "main": "src/index.js",
     "scripts": {
-      "htmlhint": "htmlhint dist/*.html ",
-      "eslint": "eslint --ext .js src/ test/",
       "test": "jest --coverage"
     },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/DianaOropeza/LIM009-fe-md-links.git"
+    },
+    "keywords": [
+      "javascript",
+      "library",
+      "npm",
+      "nodejs",
+      "markdown"
+    ],
+    "dependencies": {
+      "jest": "^24.8.0"
+    },
+    "author": "Diana Karina Oropeza Aguilar",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/DianaOropeza/LIM009-fe-md-links/issues"
+    },
+    "homepage": "https://github.com/DianaOropeza/LIM009-fe-md-links#readme",
     "devDependencies": {
-      "@babel/core": "^7.2.2",
-      "@babel/plugin-transform-modules-commonjs": "^7.2.0",
-      "babel-core": "^7.0.0-bridge.0",
-      "babel-jest": "^23.6.0",
-      "eslint": "^5.10.0",
-      "eslint-plugin-jest": "^22.1.2",
-      "firebase-mock": "^2.2.10",
-      "htmlhint": "^0.10.1",
-      "jest": "^23.6.0",
-      "mock-cloud-firestore": "^0.9.3",
-      "regenerator-runtime": "^0.13.1"
+      "@babel/cli": "^7.4.4",
+      "@babel/core": "^7.4.5",
+      "@babel/node": "^7.4.5",
+      "@babel/preset-env": "^7.4.5",
+      "eslint": "^5.16.0",
+      "eslint-config-node": "^4.0.0"
     }
   }
